@@ -13,100 +13,111 @@
 <body class="">
     <header class="mx-auto">
         <!-- Nav section -->
-      <nav class="mx-auto">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-xl">
-                      <button class="btn btn-circle btn-outline">
-                        <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                          class="h-6 w-6"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                        </svg>
-
-                      </button>daisyUI</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                      <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </details>
-                    </li>
-                    <li><a>Item 3</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end gap-3">
+      
+        <div class="navbar bg-base-100 mx-auto">
+          <div class="navbar-start"> 
+            <button class="btn btn-circle btn-outline bg-lime-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </button>
+            <p class="text-4xl text-center">Rinterio</p>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          
+          <div class="navbar-end gap-3 hidden lg:flex">
                   
-                  <div class="">
-                    <a class="btn btn-circle" href="">
-                      <svg xmlns="http://www.w3.org/2000/svg" 
-                      fill="none" 
-                      viewBox="0 0 24 24" 
-                      stroke-width="1.5" 
-                      stroke="currentColor" 
-                      class="size-6">
-                      <path stroke-linecap="round" 
-                      stroke-linejoin="round" 
-                      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                    </svg>
-                    </a>
-  
-                    <a href="" class="btn btn-circle">
-                      <svg xmlns="http://www.w3.org/2000/svg" 
-                      fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
-                      stroke="currentColor" class="size-6">
-                      <path stroke-linecap="round" 
-                      stroke-linejoin="round" 
-                      d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                      </svg>
-                      </a>
-                  </div>                  
-                  <a class="btn">Button</a>
-                </div>
-              </div>
-        </nav>
+            <div class="flex flex-row gap-3">
+              <a class="btn btn-circle" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke-width="1.5" 
+                stroke="currentColor" 
+                class="size-6">
+                <path stroke-linecap="round" 
+                stroke-linejoin="round" 
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>
+              </a>
+
+              <a href="" class="btn btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                fill="none" viewBox="0 0 24 24" stroke-width="1.5" 
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" 
+                stroke-linejoin="round" 
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+              </a>
+            </div>                  
+            
+            <div class="rounded-full max-h-16 max-w-fit flex gap-2  bg-lime-400 p-2"> 
+              <p class="text-4xl text-center text-slate-900">Result Consult</p>
+              <button class="btn btn-circle btn-outline h-12 w-12 bg-black text-center text-white">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+              </button>
+              
+            </div>
+          </div>
+
+          <div class="dropdown btn btn-cirle rounded-full  bg-white lg:hidden h-12 w-12 ml-44">
+            <div tabindex="0" role="button" class="btn btn-ghost -ml-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+
+            </ul>
+          </div>
+
+        </div>
+    
         
         <!-- banner section -->
         <div class="p-5 text-center mx-auto">
@@ -116,8 +127,8 @@
          <p class="pt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal 
           <br>accents, and large windows that flood the space with natural light.</p>
           
-            <div class="mt-4 mx-auto bg-[#ABEF5F] rounded-full max-h-12 w-40">
-              View Details 
+            <div class="mt-4 mx-auto flex justify-center text-center bg-[#ABEF5F] rounded-full max-h-fit max-w-fit p-2 gap-1">
+              <h2 class="text-center pt-2 text-2xl">View Details</h2>
               <button class="btn btn-circle btn-outline">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -565,9 +576,9 @@
                         class="input input-bordered input-lg w-full"/>
                  </div>
                  
-                  <div class="mx-auto text-center bg-[#ABEF5F] rounded-full max-h-12 max-w-2xl mr-6 lg:mr-0">
-                    Send Mail 
-                    <button class="btn btn-circle btn-outline bg-black">
+                  <div class="mx-auto flex justify-center gap-2 text-center bg-[#ABEF5F] rounded-full max-h-12 max-w-2xl mr-6 lg:mr-0">
+                    <p class="text-2xl pt-2">Send Mail </p>
+                    <button class="btn btn-circle btn-outline bg-black text-white">
                      <svg
                       xmlns="http://www.w3.org/2000/svg"
                       class="h-6 w-6"
@@ -589,10 +600,63 @@
        
     </main>
     
-    <footer class="bg-black mt-24 mx-auto">
-      <div class="">
-
-      </div>
-    </footer>
+    
+      <footer class="footer bg-neutral text-neutral-content p-10 pt-24 flex flex-col mx-auto">
+          
+          <nav class="mx-auto text-center">
+          <div class="rounded-full max-h-12 w-44 flex gap-2 mx-auto"> 
+            <button class="btn btn-circle btn-outline bg-lime-400">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </button>
+            <p class="text-4xl text-center">Rinterio</p>
+          </div>
+          <p class="pt-4 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal 
+            <br>accents, and large windows that flood the space with natural light.</p>
+            
+        </nav>
+        <nav class="mx-auto  text-4xl text-center ">
+          <ul class="gap-12 flex flex-col lg:flex-row">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+              
+        </nav>
+        <nav class="mx-auto">
+          <div class="rounded-full max-h-16 max-w-fit flex gap-2  bg-lime-400 p-2"> 
+            <p class="text-4xl text-center text-slate-950">Result Consult</p>
+            <button class="btn btn-circle btn-outline h-12 w-12 bg-slate-950 text-white text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </button>
+            
+          </div>
+        </nav>
+        
+      </footer>
+    
 </body>
 </html>
