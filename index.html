@@ -70,7 +70,7 @@
             </div>                  
             
             <div class="rounded-full max-h-16 max-w-fit flex gap-2  bg-lime-400 p-2"> 
-              <p class="text-4xl text-center text-slate-900">Result Consult</p>
+              <p class="text-3xl text-center pt-1 text-slate-900">Result Consult</p>
               <button class="btn btn-circle btn-outline h-12 w-12 bg-black text-center text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@
         <!-- banner section -->
         <div class="p-5 text-center mx-auto">
          <img class="mx-auto" src="./assets/banner.png" alt="">
-         <h1 class="text-3xl  lg:text-6xl">A barn house of this design has a 
+         <h1 class="text-3xl  lg:text-6xl font-bold">A barn house of this design has a 
           <br>striking appearance</h1>
          <p class="pt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal 
           <br>accents, and large windows that flood the space with natural light.</p>
@@ -151,9 +151,9 @@
     <main >
       
       <!-- Section About Us 1-->
-       <section class="relative  px-8 pt-14 pb-8 bg-[#737373] grid grid-cols-1 lg:grid-cols-2 mx-auto">
-          <div class="mx-auto md:ml-8 lg:ml-8 mt-4">
-            <img class=" absolute -mt-12 -ml-8 " src="./assets/Vector.png" alt="">
+       <section class="px-8 pt-20  bg-[#737373] grid grid-cols-1 lg:grid-cols-2 mx-auto gap-8">
+          <div class="relative mx-auto md:ml-8 lg:ml-8 my-4">
+            <img class=" hidden lg:block absolute -mt-12 -ml-8" src="./assets/Vector.png" alt="">
             <div class="flex flex-row justify-center text-center  bg-white rounded-full  max-h-9 max-w-32 px-2"> 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -163,13 +163,13 @@
 
             <h1 class="font-extrabold text-4xl py-4">We design thoughtful,<br>
               liveable spaces</h1>
-            <p class="text-lg py-4">The barn house captivates with its blend of rustic charm and
+            <p class="text-lg py-4 lg:py-0">The barn house captivates with its blend of rustic charm and
               <br>modern sophistication, featuring weathered wood, sleek metal accents.</p>
               
               
-              
-                <!-- about card one -->
-                <div class="card bg-base-100 pl-4 shadow-xl flex flex-row mb-5">
+              <div class="grid gap-4">
+                  <!-- about card one -->
+                <div class="card bg-base-100 pl-4 shadow-xl flex flex-row ">
                   <figure >
                     <img
                       src="./assets/commercial.png"
@@ -193,9 +193,11 @@
                 </div>
               </div>
               <!-- card 2 end -->
+              </div>
+                
           </div>
           
-          <div class="mx-auto mt-4 md:mt-0 lg:mt-0"><img src="./assets/Rectangle.png" alt=""></div>
+          <div class="mx-auto h-full"><img src="./assets/Rectangle.png" alt=""></div>
       </section>
       
       <!-- How we works section 2-->
@@ -286,7 +288,7 @@
               <div class="shadow-inner rounded-lg lg:col-span-4">
                   <div class="card shadow-xl h-full lg:flex-row">
                       <figure>
-                        <img class="w-full h-full"
+                        <img class="w-full h-full p-4"
                           src="./assets/img1.png"
                           alt="" />
                       </figure>
@@ -316,7 +318,7 @@
               </div>
             
               <div class="shadow-inner rounded-lg lg:col-span-2">
-                <img class="w-full h-full" src="./assets/img2.png" alt="">
+                <img class="w-full h-full p-4" src="./assets/img2.png" alt="">
               </div>
           </div>  
           
@@ -324,13 +326,13 @@
           
           <div class="flex flex-col-reverse lg:flex-row  mx-auto gap-4 p-4">
             <div class="shadow-inner rounded-lg">
-              <img class="w-full h-full" src="./assets/img3.png" alt="">
+              <img class="w-full h-full p-4" src="./assets/img3.png" alt="">
             </div>
             
             <div class="shadow-inner rounded-lg  lg:col-span-4">
                 <div class="card shadow-xl flex flex-col lg:flex-row h-full">
                       <figure >
-                        <img class="w-full h-full"
+                        <img class="w-full h-full p-4"
                           src="./assets/img4.png"
                           alt="" />
                       </figure>
@@ -361,12 +363,12 @@
             
         
             <div class=" shadow-inner rounded-lg">
-              <img class="w-full h-full" src="./assets/img5.png" alt="">
+              <img class="w-full h-full p-4" src="./assets/img5.png" alt="">
             </div>
           
           </div>
           <div class="shadow-inner rounded-lg lg:hidden p-4">
-            <img class="w-full h-full" src="./assets/img5.png" alt="">
+            <img class="w-full h-full p-4" src="./assets/img5.png" alt="">
           </div>
              
       </section>
@@ -532,12 +534,78 @@
           
 
       </section>
+
+      <!-- challenge part -->
+      <section class="mx-auto pt-24">
+        <div class="flex flex-row justify-center text-center  bg-[#c6e0a8] rounded-full  max-h-9 max-w-60 mx-auto"> 
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+          At Glance 
+        </div>
+          <h1 class="font-extrabold text-4xl text-center mt-4 mx-auto">
+            See our all project going</h1>
+          <p class="text-lg py-4 text-center px-8 md:px-0 lg:px-0 mx-auto">See all projects in below slide. This projects are going to complete few days later for <br> more update complete the later from.</p>
+        
+  
+            <!-- carousel part -->
+        <div class="mx-auto text-center mt-12 grid lg:grid-cols-3 gap-8 p-8 bg-[#7e7272] rounded-box ">
+              <!-- carousel part 1 -->
+              <div class="carousel carousel-vertical rounded-box h-96">
+                
+                <div class="carousel-item h-full">
+                  <img src="./assets/Rectangle.png" />
+                </div>
+                <div class="carousel-item h-full">
+                  <img src="./assets/banner.png" />
+                </div>
+              </div>
+            <!-- carousel part 2 -->
+          <div class="carousel carousel-vertical rounded-box h-96">
+            <div class="carousel-item h-full">
+              <img src="./assets/img1.png" />
+            </div>
+            <div class="carousel-item h-full">
+              <img src="./assets/img2.png" />
+            </div>
+            <div class="carousel-item h-full">
+              <img src="./assets/img3.png" />
+            </div>
+            <div class="carousel-item h-full">
+              <img src="./assets/img4.png" />
+            </div>
+            <div class="carousel-item h-full">
+              <img src="./assets/img5.png" />
+            </div>
+          </div>
+  
+          <!-- part three -->
+
+          
+
+          <div class="carousel carousel-vertical rounded-box h-96">
+            <div class="carousel-item h-full">
+              <img src="./assets/article1.png" />
+            </div>
+            <div class="carousel-item h-full">
+              <img src="./assets/article2.png" />
+            </div>
+            <div class="carousel-item h-full">
+              <img src="./assets/article3.png" />
+            </div>
+          </div>
+  
+  
+        </div>
+  
+      </section>
+      
       
       <!-- lets connect section -->
-      <section class="mx-auto">
+      <section class="mx-auto max-h-fit">
         <div class="mx-auto relative">
-          <img class="size-full max-h-[540px]" src="./assets/bg.jpg" alt="">
-          <div class="absolute mx-auto -mt-[550px] lg:-mt-[480px] ml-8 lg:ml-80">
+          <img class="size-full max-h-[560px] lg:max-h-[540px]" src="./assets/bg.jpg" alt="">
+          <div class="absolute mx-auto -mt-[570px] lg:-mt-[480px] ml-8 lg:ml-80">
             <div class="flex flex-row justify-center text-center  bg-[#c6e0a8] rounded-full  max-h-9 max-w-60 mx-auto mt-6"> 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -576,7 +644,7 @@
                         class="input input-bordered input-lg w-full"/>
                  </div>
                  
-                  <div class="mx-auto flex justify-center gap-2 text-center bg-[#ABEF5F] rounded-full max-h-12 max-w-2xl mr-6 lg:mr-0">
+                  <div class="mx-auto flex justify-center gap-2 mb-8 text-center bg-[#ABEF5F] rounded-full max-h-12 max-w-2xl mr-6 lg:mr-0">
                     <p class="text-2xl pt-2">Send Mail </p>
                     <button class="btn btn-circle btn-outline bg-black text-white">
                      <svg
